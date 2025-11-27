@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class BasicNote : Note
 {
-    public override Vector2 Size => sprite.bounds.size;
+    public override Bounds bounds => sprite.bounds;
 
     public override bool TryPress(Vector3 hitLinePosition)
     {

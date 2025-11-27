@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Conveyor<T> where T : MonoBehaviour, I2DSize
+public class Conveyor<T> where T : MonoBehaviour, IBounds
 {
     public float Speed { get; set; }
     public bool IsStoped { get; set; }
@@ -48,37 +48,15 @@ public class Conveyor<T> where T : MonoBehaviour, I2DSize
         if(_conveyor.Count == 0) return false;
 
         float minDist = Mathf.Infinity;
+        float delta;
         foreach (var obj in _conveyor)
         {
-            var objPos = obj.transform.position;
-            var direction = position - objPos;
-            var absDirection = new Vector2(Mathf.Abs(direction.x), Mathf.Abs(direction.y));
-            Vector2 halfSize = obj.Size * 0.5f;
+            delta = (position - obj.bounds.ClosestPoint(position)).magnitude;
 
-            if(absDirection.x < halfSize.x && absDirection.y < halfSize.y)
+            if (delta < minDist)
             {
+                minDist = delta;
                 result = obj;
-                break;
-            }
-
-            var objClosestPos = objPos;
-            if(absDirection.x > absDirection.y)
-            {
-                objClosestPos.x += Mathf.Sign(direction.x) * halfSize.x;
-                objClosestPos.y += (direction.y / absDirection.x) * halfSize.x;
-            }
-            else
-            {
-                objClosestPos.x += (direction.x / absDirection.y) * halfSize.y;
-                objClosestPos.y += Mathf.Sign(direction.y) * halfSize.y;
-            }
-
-            float dist = Vector3.Distance(objClosestPos, position);
-
-            if (minDist > dist)
-            {
-                result = obj;
-                minDist = dist;
             }
             else
                 break;
@@ -168,7 +146,7 @@ public class Conveyor<T> where T : MonoBehaviour, I2DSize
 
         public void Check(T obj, Vector3 direction)
         {
-            if(spyingObjects.Contains(obj) && Vector3.Dot(position - obj.transform.position, direction) < 0)
+            if(spyingObjects.Contains(obj) && !(Vector3.Dot(position - obj.transform.position, direction) > 0 || obj.bounds.Contains(position)))
             {
                 spyingObjects.Remove(obj);
                 passedObjects.Add(obj);

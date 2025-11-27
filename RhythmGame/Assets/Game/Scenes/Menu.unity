@@ -3319,16 +3319,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _bindings:
   - button: {fileID: 823025991}
-    easySong: {fileID: 11400000, guid: 1f20ee4283d90ff4bbb708db97e9175f, type: 2}
-    normalSong: {fileID: 11400000, guid: 8f30c1f9bde945e4a9be18ae054be02f, type: 2}
-    hardSong: {fileID: 11400000, guid: cda7d09ec31f8364abbacda4102fe30b, type: 2}
+    easySong: {fileID: 11400000, guid: 9aed1ac5e00f19e42a777ff11a97cb8a, type: 2}
+    normalSong: {fileID: 11400000, guid: 46a0fe6d04b215241bcd18019365a28c, type: 2}
+    hardSong: {fileID: 11400000, guid: aa859b51b98eee747ba645d8a1a56070, type: 2}
   - button: {fileID: 1619768116}
-    easySong: {fileID: 0}
-    normalSong: {fileID: 0}
-    hardSong: {fileID: 0}
+    easySong: {fileID: 11400000, guid: e4b390818294be640a072f9bcf6bd62f, type: 2}
+    normalSong: {fileID: 11400000, guid: e93b898fe88993e41b61658a51a81d68, type: 2}
+    hardSong: {fileID: 11400000, guid: a645d4876ed86e5459c0a69cb1501cbd, type: 2}
   - button: {fileID: 1611208443}
-    easySong: {fileID: 0}
-    normalSong: {fileID: 0}
+    easySong: {fileID: 11400000, guid: e14981a3ee8dca44fbd1841fd06190a6, type: 2}
+    normalSong: {fileID: 11400000, guid: bf9bbc16a3735114898ac1a11ccffa32, type: 2}
     hardSong: {fileID: 0}
   difficaltyMenu: {fileID: 1524682220}
 --- !u!1 &1960010646

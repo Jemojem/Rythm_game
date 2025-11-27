@@ -1,0 +1,735 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ee089bc01529b04486f7f0ddff6219e, type: 3}
+  m_Name: L1 medium
+  m_EditorClassIdentifier: 
+  audioClip: {fileID: 8300000, guid: 9f767229e8ab59147a6722a736656f89, type: 3}
+  speed: 4
+  bpm: 89
+  start: 0
+  notes:
+  - bit: 3.5
+    direction: 3
+    type: 0
+    duration: 2
+  - bit: 1
+    direction: 2
+    type: 0
+    duration: 0
+  - bit: 1
+    direction: 3
+    type: 0
+    duration: 0
+  - bit: 1
+    direction: 2
+    type: 0
+    duration: 0
+  - bit: 1
+    direction: 3
+    type: 0
+    duration: 0
+  - bit: 1
+    direction: 2
+    type: 0
+    duration: 0
+  - bit: 1
+    direction: 4
+    type: 0
+    duration: 0
+  - bit: 0.4
+    direction: 1
+    type: 0
+    duration: 0
+  - bit: 0.5
+    direction: 4
+    type: 0
+    duration: 0
+  - bit: 0.5
+    direction: 1
+    type: 0
+    duration: 0
+  - bit: 1
+    direction: 4
+    type: 0
+    duration: 0
+  - bit: 1
+    direction: 1
+    type: 0
+    duration: 0
+  - bit: 1
+    direction: 3
+    type: 0
+    duration: 0
+  - bit: 1
+    direction: 2
+    type: 0
+    duration: 0
+  - bit: 1
+    direction: 1
+    type: 0
+    duration: 0
+  - bit: 1
+    direction: 4
+    type: 0
+    duration: 0
+  - bit: 1
+    direction: 1
+    type: 0
+    duration: 0
+  - bit: 1
+    direction: 4
+    type: 0
+    duration: 0
+  - bit: 1
+    direction: 1
+    type: 0
+    duration: 0
+  - bit: 1
+    direction: 4
+    type: 0
+    duration: 0
+  - bit: 0.75
+    direction: 2
+    type: 0
+    duration: 0
+  - bit: 0.75
+    direction: 3
+    type: 0
+    duration: 0
+  - bit: 1
+    direction: 2
+    type: 0
+    duration: 0
+  - bit: 1
+    direction: 3
+    type: 0
+    duration: 0
+  - bit: 1
+    direction: 2
+    type: 0
+    duration: 0
+  - bit: 1
+    direction: 3
+    type: 0
+    duration: 0
+  - bit: 1
+    direction: 2
+    type: 0
+    duration: 0
+  - bit: 0.75
+    direction: 4
+    type: 0
+    duration: 0
+  - bit: 0.75
+    direction: 1
+    type: 0
+    duration: 0
+  - bit: 0.75
+    direction: 3
+    type: 0
+    duration: 0
+  - bit: 1
+    direction: 2
+    type: 0
+    duration: 0
+  - bit: 1
+    direction: 4
+    type: 0
+    duration: 0
+  - bit: 0.75
+    direction: 1
+    type: 0
+    duration: 0
+  - bit: 0.75
+    direction: 3
+    type: 0
+    duration: 0
+  - bit: 0.75
+    direction: 2
+    type: 0
+    duration: 0
+  - bit: 1
+    direction: 1
+    type: 0
+    duration: 0
+  - bit: 1
+    direction: 4
+    type: 0
+    duration: 0
+  - bit: 1
+    direction: 2
+    type: 0
+    duration: 0
+  - bit: 1
+    direction: 3
+    type: 0
+    duration: 0
+  - bit: 1
+    direction: 1
+    type: 0
+    duration: 0
+  - bit: 1
+    direction: 4
+    type: 0
+    duration: 0
+  - bit: 1
+    direction: 2
+    type: 0
+    duration: 0
+  - bit: 1
+    direction: 4
+    type: 0
+    duration: 0
+  - bit: 0.5
+    direction: 2
+    type: 0
+    duration: 0
+  - bit: 0.5
+    direction: 4
+    type: 0
+    duration: 0
+  - bit: 0.75
+    direction: 1
+    type: 0
+    duration: 0
+  - bit: 1
+    direction: 3
+    type: 0
+    duration: 0
+  - bit: 1
+    direction: 2
+    type: 0
+    duration: 0
+  - bit: 1
+    direction: 4
+    type: 0
+    duration: 0
+  - bit: 1
+    direction: 2
+    type: 1
+    duration: 1
+  - bit: 0.75
+    direction: 3
+    type: 0
+    duration: 0
+  - bit: 0.75
+    direction: 1
+    type: 0
+    duration: 0
+  - bit: 0.75
+    direction: 4
+    type: 0
+    duration: 0
+  - bit: 1
+    direction: 2
+    type: 0
+    duration: 0
+  - bit: 1
+    direction: 3
+    type: 0
+    duration: 0
+  - bit: 1
+    direction: 1
+    type: 0
+    duration: 0
+  - bit: 1
+    direction: 3
+    type: 1
+    duration: 1
+  - bit: 1
+    direction: 2
+    type: 0
+    duration: 0
+  - bit: 1
+    direction: 1
+    type: 0
+    duration: 0
+  - bit: 0.75
+    direction: 4
+    type: 0
+    duration: 0
+  - bit: 0.75
+    direction: 2
+    type: 0
+    duration: 0
+  - bit: 0.75
+    direction: 4
+    type: 0
+    duration: 0
+  - bit: 1
+    direction: 1
+    type: 0
+    duration: 0
+  - bit: 1
+    direction: 4
+    type: 0
+    duration: 0
+  - bit: 0.75
+    direction: 2
+    type: 0
+    duration: 0
+  - bit: 0.75
+    direction: 3
+    type: 0
+    duration: 0
+  - bit: 0.75
+    direction: 4
+    type: 0
+    duration: 0
+  - bit: 1
+    direction: 1
+    type: 0
+    duration: 0
+  - bit: 1
+    direction: 3
+    type: 0
+    duration: 0
+  - bit: 0.75
+    direction: 1
+    type: 0
+    duration: 0
+  - bit: 0.75
+    direction: 4
+    type: 0
+    duration: 0
+  - bit: 0.75
+    direction: 1
+    type: 0
+    duration: 0
+  - bit: 0.75
+    direction: 3
+    type: 0
+    duration: 0.75
+  - bit: 1.4
+    direction: 2
+    type: 0
+    duration: 0
+  - bit: 0.75
+    direction: 3
+    type: 0
+    duration: 0.75
+  - bit: 1.4
+    direction: 1
+    type: 0
+    duration: 0
+  - bit: 0.75
+    direction: 4
+    type: 0
+    duration: 0.75
+  - bit: 1.4
+    direction: 1
+    type: 0
+    duration: 0
+  - bit: 0.75
+    direction: 3
+    type: 0
+    duration: 0.75
+  - bit: 1.4
+    direction: 1
+    type: 0
+    duration: 0
+  - bit: 0.8
+    direction: 4
+    type: 0
+    duration: 0
+  - bit: 0.75
+    direction: 3
+    type: 0
+    duration: 0.75
+  - bit: 1.4
+    direction: 2
+    type: 0
+    duration: 0
+  - bit: 0.75
+    direction: 3
+    type: 0
+    duration: 0.75
+  - bit: 1.4
+    direction: 1
+    type: 0
+    duration: 1
+  - bit: 0.75
+    direction: 3
+    type: 0
+    duration: 0.75
+  - bit: 1.4
+    direction: 2
+    type: 0
+    duration: 1
+  - bit: 0.75
+    direction: 4
+    type: 1
+    duration: 1
+  - bit: 0.75
+    direction: 2
+    type: 0
+    duration: 1
+  - bit: 0.75
+    direction: 1
+    type: 0
+    duration: 1
+  - bit: 0.75
+    direction: 3
+    type: 0
+    duration: 0.7
+  - bit: 1.4
+    direction: 2
+    type: 0
+    duration: 1
+  - bit: 0.75
+    direction: 3
+    type: 0
+    duration: 0.7
+  - bit: 1.4
+    direction: 1
+    type: 0
+    duration: 1
+  - bit: 0.75
+    direction: 3
+    type: 0
+    duration: 0.7
+  - bit: 1.4
+    direction: 2
+    type: 0
+    duration: 1
+  - bit: 0.7
+    direction: 4
+    type: 0
+    duration: 1
+  - bit: 0.7
+    direction: 2
+    type: 0
+    duration: 1
+  - bit: 0.7
+    direction: 3
+    type: 0
+    duration: 1
+  - bit: 0.75
+    direction: 2
+    type: 0
+    duration: 0.75
+  - bit: 1.4
+    direction: 4
+    type: 0
+    duration: 1
+  - bit: 0.75
+    direction: 1
+    type: 1
+    duration: 0.75
+  - bit: 1.4
+    direction: 3
+    type: 0
+    duration: 1
+  - bit: 0.75
+    direction: 4
+    type: 0
+    duration: 0.75
+  - bit: 1.4
+    direction: 2
+    type: 0
+    duration: 1
+  - bit: 0.75
+    direction: 3
+    type: 0
+    duration: 0.75
+  - bit: 1.4
+    direction: 2
+    type: 0
+    duration: 1
+  - bit: 0.75
+    direction: 4
+    type: 0
+    duration: 1
+  - bit: 1
+    direction: 2
+    type: 1
+    duration: 1
+  - bit: 1
+    direction: 3
+    type: 0
+    duration: 1
+  - bit: 1
+    direction: 1
+    type: 0
+    duration: 1
+  - bit: 1
+    direction: 3
+    type: 0
+    duration: 1
+  - bit: 1
+    direction: 2
+    type: 0
+    duration: 1
+  - bit: 1
+    direction: 3
+    type: 0
+    duration: 1
+  - bit: 1
+    direction: 1
+    type: 0
+    duration: 1
+  - bit: 1
+    direction: 4
+    type: 1
+    duration: 1
+  - bit: 1
+    direction: 3
+    type: 0
+    duration: 1
+  - bit: 1
+    direction: 2
+    type: 0
+    duration: 1
+  - bit: 1
+    direction: 4
+    type: 0
+    duration: 1
+  - bit: 1
+    direction: 2
+    type: 0
+    duration: 1
+  - bit: 1
+    direction: 3
+    type: 0
+    duration: 1
+  - bit: 1
+    direction: 2
+    type: 0
+    duration: 1
+  - bit: 1
+    direction: 4
+    type: 1
+    duration: 1
+  - bit: 1
+    direction: 2
+    type: 0
+    duration: 1
+  - bit: 1
+    direction: 3
+    type: 0
+    duration: 1
+  - bit: 1
+    direction: 1
+    type: 0
+    duration: 1
+  - bit: 1
+    direction: 3
+    type: 0
+    duration: 1
+  - bit: 1
+    direction: 2
+    type: 1
+    duration: 1
+  - bit: 0
+    direction: 3
+    type: 0
+    duration: 1
+  - bit: 1
+    direction: 2
+    type: 0
+    duration: 1
+  - bit: 1
+    direction: 4
+    type: 0
+    duration: 1
+  - bit: 1
+    direction: 1
+    type: 0
+    duration: 1
+  - bit: 1
+    direction: 3
+    type: 0
+    duration: 1
+  - bit: 1
+    direction: 1
+    type: 0
+    duration: 1
+  - bit: 1
+    direction: 4
+    type: 0
+    duration: 1
+  - bit: 1
+    direction: 1
+    type: 0
+    duration: 1
+  - bit: 1
+    direction: 3
+    type: 1
+    duration: 1
+  - bit: 1
+    direction: 1
+    type: 0
+    duration: 1
+  - bit: 1
+    direction: 4
+    type: 0
+    duration: 1
+  - bit: 1
+    direction: 2
+    type: 0
+    duration: 1
+  - bit: 1
+    direction: 4
+    type: 0
+    duration: 1
+  - bit: 1
+    direction: 1
+    type: 0
+    duration: 1
+  - bit: 1
+    direction: 4
+    type: 1
+    duration: 1
+  - bit: 1
+    direction: 2
+    type: 0
+    duration: 1
+  - bit: 1
+    direction: 3
+    type: 0
+    duration: 1
+  - bit: 1
+    direction: 2
+    type: 0
+    duration: 1
+  - bit: 1
+    direction: 4
+    type: 0
+    duration: 1
+  - bit: 1
+    direction: 1
+    type: 0
+    duration: 1
+  - bit: 1
+    direction: 3
+    type: 0
+    duration: 1
+  - bit: 1
+    direction: 2
+    type: 0
+    duration: 1
+  - bit: 1
+    direction: 4
+    type: 1
+    duration: 1
+  - bit: 1
+    direction: 2
+    type: 0
+    duration: 1
+  - bit: 1
+    direction: 3
+    type: 0
+    duration: 1
+  - bit: 1
+    direction: 1
+    type: 0
+    duration: 1
+  - bit: 1
+    direction: 4
+    type: 0
+    duration: 1
+  - bit: 1
+    direction: 2
+    type: 0
+    duration: 1
+  - bit: 1
+    direction: 3
+    type: 1
+    duration: 1
+  - bit: 1
+    direction: 1
+    type: 0
+    duration: 1
+  - bit: 1
+    direction: 3
+    type: 0
+    duration: 1
+  - bit: 1
+    direction: 2
+    type: 0
+    duration: 1
+  - bit: 1
+    direction: 4
+    type: 0
+    duration: 1
+  - bit: 1
+    direction: 1
+    type: 0
+    duration: 1
+  - bit: 1
+    direction: 3
+    type: 0
+    duration: 1
+  - bit: 1
+    direction: 2
+    type: 1
+    duration: 1
+  - bit: 1
+    direction: 3
+    type: 0
+    duration: 1
+  - bit: 1
+    direction: 2
+    type: 0
+    duration: 1
+  - bit: 1
+    direction: 3
+    type: 0
+    duration: 1
+  - bit: 1
+    direction: 1
+    type: 0
+    duration: 1
+  - bit: 1
+    direction: 4
+    type: 0
+    duration: 1
+  - bit: 1
+    direction: 2
+    type: 0
+    duration: 1
+  - bit: 1
+    direction: 3
+    type: 1
+    duration: 1
+  - bit: 1
+    direction: 1
+    type: 0
+    duration: 1
+  - bit: 1
+    direction: 4
+    type: 0
+    duration: 1
+  - bit: 1
+    direction: 3
+    type: 0
+    duration: 1
+  - bit: 1
+    direction: 2
+    type: 0
+    duration: 1
+  - bit: 1
+    direction: 3
+    type: 0
+    duration: 1
+  - bit: 1
+    direction: 1
+    type: 0
+    duration: 1
+  - bit: 1
+    direction: 3
+    type: 0
+    duration: 1
+  - bit: 1
+    direction: 2
+    type: 0
+    duration: 1

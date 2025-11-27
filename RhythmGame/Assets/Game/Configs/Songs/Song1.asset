@@ -13,31 +13,27 @@ MonoBehaviour:
   m_Name: Song1
   m_EditorClassIdentifier: 
   audioClip: {fileID: 8300000, guid: c8d9768b7d8a75a4abb0f9b92b898383, type: 3}
-  speed: 5
-  bpm: 0
-  start: 0
+  speed: 3
+  bpm: 100
+  start: 5
   notes:
-  - bit: 0
+  - bit: 6
     direction: 0
     type: 1
-    duration: 2
-  - bit: 0
-    direction: 0
-    type: 0
-    duration: 0
-  - bit: 0
-    direction: 2
-    type: 0
-    duration: 0
-  - bit: 0
-    direction: 3
-    type: 0
-    duration: 0
-  - bit: 0
-    direction: 3
-    type: 0
-    duration: 0
-  - bit: 0
+    duration: 3
+  - bit: 2
     direction: 1
-    type: 0
-    duration: 0
+    type: 1
+    duration: 2
+  - bit: 2
+    direction: 2
+    type: 1
+    duration: 2
+  - bit: 2
+    direction: 1
+    type: 1
+    duration: 2
+  - bit: 2
+    direction: 2
+    type: 1
+    duration: 2
